@@ -1,0 +1,16 @@
+{
+    "default": {
+        "paths": [
+            "features"
+        ],
+        "require": [
+            "tests/*.js"
+        ],
+        "format": [
+            "json:./reports/report.json"
+        ],
+        "worldParameters": {
+            "language": "pt"
+        }
+    }
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "finalizar-compra;finalizando-compra-com-sucesso",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Finalizando compra com sucesso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2277365800
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1260881100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "o usuário está logado e na página de produtos",
+            "match": {
+              "location": "tests\\compra.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1106514000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "o usuário seleciona o primeiro produto",
+            "match": {
+              "location": "tests\\compra.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45989400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "o usuário vai para o carrinho e visualiza o item selecionado no carrinho",
+            "match": {
+              "location": "tests\\compra.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13187199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o usuário segue para o pagamento",
+            "match": {
+              "location": "tests\\compra.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272288999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "o usuário informa as informações de entrega",
+            "match": {
+              "location": "tests\\compra.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167960199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "o usuário finaliza a compra",
+            "match": {
+              "location": "tests\\compra.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63572099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "o usuário deve ver a mensagem Thank you for your order!",
+            "match": {
+              "location": "tests\\compra.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12329499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "o usuário deve ver o título Checkout: Complete!",
+            "match": {
+              "location": "tests\\compra.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9220399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 343521400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 360437600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "finalizar-compra",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Finalizar compra",
+    "tags": [],
+    "uri": "features\\compras.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-no-saucedemo;login-com-credenciais-válidas",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login com credenciais válidas",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 756417400
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 912624599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que o usuário está na página de login do SauceDemo",
+            "match": {
+              "location": "tests\\login.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 563333800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "o usuário insere e-mail e senha válidos",
+            "match": {
+              "location": "tests\\login.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267877699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "o usuário deve ver a página de produtos",
+            "match": {
+              "location": "tests\\login.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22657799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 393179799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 372346999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-no-saucedemo;login-com-credenciais-inválidas",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login com credenciais inválidas",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 757880499
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 729014400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que o usuário está na página de login do SauceDemo",
+            "match": {
+              "location": "tests\\login.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545241900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "o usuário insere e-mail e senha inválidos",
+            "match": {
+              "location": "tests\\login.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159467399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "o usuário deve receber uma mensagem apontando que o usuário ou senha é inválido",
+            "match": {
+              "location": "tests\\login.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14243300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 319291199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 243095500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-no-saucedemo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login no SauceDemo",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
