@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.2"
+  },
+  "scripts": {
+    "test": "cucumber-js test --format summary"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
